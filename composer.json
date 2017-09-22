@@ -1,0 +1,20 @@
+{
+  "name": "snowdog/module-alpaca-data-provider",
+  "description": "Module provides data for alpaca theme",
+  "license": "MIT",
+  "type": "magento2-module",
+  "authors": [
+    {
+      "name": "Dawid Czaja",
+      "email": "dawid.czaja@snow.dog"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Snowdog\\AlpacaDataProvider\\": ""
+    }
+  }
+}
