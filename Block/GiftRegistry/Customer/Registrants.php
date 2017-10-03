@@ -23,7 +23,7 @@ use Magento\Directory\Model\ResourceModel\Country\CollectionFactory as CountryCo
 class Registrants extends GiftRegistrants
 {
     const CONFIG_XML_PATH_REGION_DISPLAY_ALL = 'general/region/display_all';
-    
+
     /**
      * @var Address
      */
@@ -31,6 +31,8 @@ class Registrants extends GiftRegistrants
 
     /**
      * Registrants constructor.
+     * (Rest of annotations)
+     * @SuppressWarnings(PHPMD. ExcessiveParameterList)
      * @param Context $context
      * @param DirectoryHelper $directoryHelper
      * @param EncoderInterface $jsonEncoder

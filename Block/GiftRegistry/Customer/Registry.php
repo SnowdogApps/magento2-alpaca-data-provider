@@ -15,8 +15,8 @@ use Magento\GiftRegistry\Model\Attribute\Config as GiftRegistryConfig;
 use Magento\Directory\Model\ResourceModel\Country\CollectionFactory as CountryCollectionFactory;
 
 /**
- * Class Data
- * @package Snowdog\AlpacaDataProvider\Block
+ * Class Registry
+ * @package Snowdog\AlpacaDataProvider\Block\GiftRegistry\Customer
  */
 class Registry extends GiftRegistry
 {
@@ -26,7 +26,9 @@ class Registry extends GiftRegistry
     protected $addressHelper;
 
     /**
-     * Data constructor.
+     * Registry constructor.
+     * (Rest of annotations)
+     * @SuppressWarnings(PHPMD. ExcessiveParameterList)
      * @param Context $context
      * @param DirectoryHelper $directoryHelper
      * @param EncoderInterface $jsonEncoder
