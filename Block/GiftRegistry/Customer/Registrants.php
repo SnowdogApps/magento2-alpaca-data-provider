@@ -22,6 +22,8 @@ use Magento\Directory\Model\ResourceModel\Country\CollectionFactory as CountryCo
  */
 class Registrants extends GiftRegistrants
 {
+    const CONFIG_XML_PATH_REGION_DISPLAY_ALL = 'general/region/display_all';
+    
     /**
      * @var Address
      */
@@ -73,7 +75,6 @@ class Registrants extends GiftRegistrants
         );
     }
 
-
     /**
      * @return array
      */
@@ -97,7 +98,7 @@ class Registrants extends GiftRegistrants
      */
     public function displayAll()
     {
-        return $this->getConfig('general/region/display_all');
+        return $this->getConfig(self::CONFIG_XML_PATH_REGION_DISPLAY_ALL);
     }
 
     /**
