@@ -31,8 +31,7 @@ class Registrants extends GiftRegistrants
 
     /**
      * Registrants constructor.
-     * (Rest of annotations)
-     * @SuppressWarnings(PHPMD. ExcessiveParameterList)
+     *
      * @param Context $context
      * @param DirectoryHelper $directoryHelper
      * @param EncoderInterface $jsonEncoder
@@ -45,6 +44,8 @@ class Registrants extends GiftRegistrants
      * @param GiftRegistryHelper $giftRegistryData
      * @param Address $addressHelper
      * @param array $data
+     *
+     * @SuppressWarnings(PHPMD.ExcessiveParameterList)
      */
     public function __construct(
         Context $context,

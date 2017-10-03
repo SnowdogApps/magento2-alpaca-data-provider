@@ -27,8 +27,7 @@ class Registry extends GiftRegistry
 
     /**
      * Registry constructor.
-     * (Rest of annotations)
-     * @SuppressWarnings(PHPMD. ExcessiveParameterList)
+     *
      * @param Context $context
      * @param DirectoryHelper $directoryHelper
      * @param EncoderInterface $jsonEncoder
@@ -40,6 +39,8 @@ class Registry extends GiftRegistry
      * @param GiftRegistryConfig $attributeConfig
      * @param Address $addressHelper
      * @param array $data
+     *
+     * @SuppressWarnings(PHPMD.ExcessiveParameterList)
      */
     public function __construct(
         Context $context,
