@@ -113,7 +113,7 @@ class Registrants extends GiftRegistrants
         $results = [];
         if (is_array($options)) {
             foreach ($options as $option) {
-                $results = ['label' => $option['label'], 'value' => $option['code']];
+                $results[] = ['label' => $option['label'], 'value' => $option['code']];
             }
         }
 
